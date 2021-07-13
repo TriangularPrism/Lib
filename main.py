@@ -1,9 +1,18 @@
-var = input("1 for About Me, 2 for superhero"
-)
+print("1 for About Me, 2 for superhero")
+var = input()
 
-if not var == 1 or 2:
-  while not var == 1 or 2:
-    var = input("1 for About Me, 2 for superhero")
+print(var)
+
+var1 = 1
+var2 = 2
+
+if not var == var1:
+  
+  if not var == var2:
+    while not var == 1 and not var == 2:
+      print("1 for About Me, 2 for superhero")
+      var = input()
+      print(var)
 
 if var == 1:
 
